@@ -1,0 +1,141 @@
+@font-face {
+	font-family: opensans;
+	src: url(fonts/OpenSans-Light.ttf);
+    font-family: zendots;
+    src: url(fonts/Zendots-Regular.ttf);
+	font-family: antonio;
+    src: url(fonts/Antonio-Regular.ttf);
+	font-family: kanit;
+	src: url(/Fonts/Kanit-Regular.ttf);
+}
+
+*{
+	font-family: opensans;
+	font-size: 17px;
+}
+
+nav{
+	background-color: #512DAB;
+	padding: 0px 50px 0px 0px;
+}
+
+.navbar-brand{
+    padding-left: 2%;
+	font-family: zendots;
+}
+
+.navbar-brand img{
+    height: 50px;
+}
+
+img{
+	height: 20px;
+}
+
+.jumbotron {
+  	padding:60px 30px 60px 30px;
+    margin:0px auto;
+    background: #9575CD ;
+    color:floralwhite;
+	text-align: center;
+}
+
+.jumbotron h1{
+	font-family: antonio;
+}
+
+body{
+    padding: 50px 0px 0px 0px;
+	min-height: 100vh;
+}
+
+.logo{
+	height: 250px;
+}
+
+table { 
+	border-collapse: collapse;
+}
+
+table th { 
+	padding: 10px 0px 0px 0px; 
+	border: 1px solid lightblue; 
+}
+
+table td { 
+	padding: 10px !important; 
+	border: 1px solid lightblue; 
+}
+
+#main{
+	position: relative;
+	left: 10%;
+	width: 80%;
+	text-align: center;
+}
+
+#main_div{
+	position: relative;
+	left: 0%;
+	width: 80%;
+}
+
+#menu{
+	position: relative;
+	left: 10%;
+	width: 80%;
+	background-color: whitesmoke;
+	border: 1px solid lightblue;
+}
+
+.chart-container {
+  position: relative;
+  margin: auto;
+  height: 20vh;
+  width: 40vw;
+}
+
+.chart-container1 {
+  position: relative;
+  margin: auto;
+  height: 90vh;
+  width: 80vw;
+}
+
+.error{
+	color: red;
+}
+
+button:hover{
+	background-color: #9575CD !important;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+    background-color: #6D53A5 !important;
+    color: white;
+    height: 23px;
+	font-size: 5px;
+}
+
+.footer a{
+	text-decoration: none !important;
+	color: white !important;
+}
+
+#p{
+    color: black !important;
+    font-family: kanit;
+    font-size: 17px;
+}
+
+#p a{
+    font-family: kanit;
+}
+
+#p b{
+    font-size: 19px;
+}
